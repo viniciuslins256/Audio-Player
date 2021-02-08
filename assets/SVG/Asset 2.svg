@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 143 79.3">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>Asset 2</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M67.5,35.32,7.5.68A5,5,0,0,0,0,5V74.29a5,5,0,0,0,7.5,4.33L67.5,44A5,5,0,0,0,67.5,35.32Z"/>
+      <path class="cls-1" d="M140.5,35.32,80.5.68A5,5,0,0,0,73,5V74.29a5,5,0,0,0,7.5,4.33L140.5,44A5,5,0,0,0,140.5,35.32Z"/>
+    </g>
+  </g>
+</svg>

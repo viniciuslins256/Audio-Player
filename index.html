@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    
+    <div class="content">
+
+        <div class="image"></div>
+
+        <div class="time">
+            <div class="seek">
+                <div class="fill"></div>
+            </div>
+        </div>
+
+        <div class="minutes">
+            <div class="first">0:00</div>
+            <div class="last">4:07</div>
+        </div>
+
+        <audio class="song">
+            <source src="./assets/music.mp3" type="audio/mp3"/>
+        </audio>
+
+        <div class="title">Something Just Like This</div>
+        <div class="singer">The Chainsmokers & Coldplay</div>
+
+        <div class="svgs">
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 143 79.3" class="btn2">
+                <title>Retroceder</title>
+                <g id="Layer_2" data-name="Layer 2">
+                <g id="Layer_1-2" data-name="Layer 1">
+                    <path class="cls-btn2" d="M75.5,44l60,34.64a5,5,0,0,0,7.5-4.33V5A5,5,0,0,0,135.5.68l-60,34.64A5,5,0,0,0,75.5,44Z"/>
+                    <path class="cls-btn2" d="M2.5,44l60,34.64A5,5,0,0,0,70,74.29V5A5,5,0,0,0,62.5.68L2.5,35.32A5,5,0,0,0,2.5,44Z"/>
+                </g>
+                </g>
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 239 239" class="btn1" onclick="togglePlayPause()">
+                <defs>
+                <style>
+                    .cls-btn1 {
+                    fill: #fff;
+                    }
+            
+                    .cls-btn1-2 {
+                    fill: none;
+                    stroke: #fff;
+                    stroke-miterlimit: 10;
+                    stroke-width: 7px;
+                    }
+                </style>
+                </defs>
+                <title>Play/Pause</title>
+                <g id="Layer_2" data-name="Layer 2">
+                <g id="Layer_1-2" data-name="Layer 1">
+                    <g>
+                    <path class="cls-btn1" d="M152.81,115.19l-52-30.66a5,5,0,0,0-7.54,4.31v61.32a5,5,0,0,0,7.54,4.31l52-30.66A5,5,0,0,0,152.81,115.19Z"/>
+                    <circle class="cls-btn1-2" cx="119.5" cy="119.5" r="116"/>
+                    </g>
+                </g>
+                </g>
+            </svg>
+            
+            
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 143 79.3" class="btn2">
+                <defs>
+                <style>
+                    .cls-btn2 {
+                    fill: #fff;
+                    }
+                </style>
+                </defs>
+                <title>Avançar</title>
+                <g id="Layer_2" data-name="Layer 2">
+                <g id="Layer_1-2" data-name="Layer 1">
+                    <path class="cls-btn2" d="M67.5,35.32,7.5.68A5,5,0,0,0,0,5V74.29a5,5,0,0,0,7.5,4.33L67.5,44A5,5,0,0,0,67.5,35.32Z"/>
+                    <path class="cls-btn2" d="M140.5,35.32,80.5.68A5,5,0,0,0,73,5V74.29a5,5,0,0,0,7.5,4.33L140.5,44A5,5,0,0,0,140.5,35.32Z"/>
+                </g>
+                </g>
+            </svg>
+
+        </div>
+
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 220.68" class="waves">
+        <defs>
+          <style>
+            .cls-1 {
+              fill: #e74565;
+            }
+      
+            .cls-2 {
+              fill: #f5ae3e;
+              opacity: 0.7;
+            }
+          </style>
+        </defs>
+        <title>Asset 4</title>
+        <g id="Layer_2" data-name="Layer 2">
+          <g id="Layer_1-2" data-name="Layer 1">
+            <path class="cls-1" d="M0,145.33c28.59-12.18,72.75-32,125.34-59.82,79.57-42.15,80.94-51.13,111.1-57C299.84,16.25,359.1,43.27,433,77c60.91,27.78,51.47,33.6,79.76,39.88C582.64,132.36,652,99.43,729.26,62.72c42-20,64.26-35,108.25-42.73,49-8.63,80.52-.35,91.15,2.85,31.48,9.47,49.78,25.43,65.52,37,57.48,42.33,132.14,64.15,182.32,65.52,27.45.75,31-5.06,182.31-68.37,124-51.87,141.8-56.44,168.07-57,65.42-1.31,123.08,23.7,153.83,37,55,23.86,65.47,41,114,57,50,16.45,95.14,16.63,125.34,14.24V219.4H0Z"/>
+            <path class="cls-2" d="M1920,216.39V57.56a228.14,228.14,0,0,0-79.88,5.72c-37.81,9.74-46.52,22.91-82.74,37.21-58.23,23-111.17,18.77-131.23,17.17-9.9-.79-24.54-2.47-114.11-31.48C1412.53,54,1400.7,46.35,1363.68,40.39c-53-8.52-94.65-3.55-122.67,0-48.25,6.11-72.61,16.47-262.47,94.44C911,162.57,875.05,177,821.63,180.62c-39.56,2.71-70.31-1.72-97-5.72-76-11.4-134.51-35.71-185.44-57.24-68.1-28.79-72.67-38.3-111.27-45.79-48.18-9.34-86.26-3.28-122.67,2.86C227.68,87.82,199,110.83,74.18,152,42.68,162.39,16.7,170.09,0,174.9v42.92l1920,2.86v-6.06"/>
+          </g>
+        </g>
+      </svg>
+      
+      <script src="script/script.js"></script>
+
+</body>
+</html>
