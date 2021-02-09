@@ -118,11 +118,20 @@ body{
     margin: 30px;
 }
 
+.pause{
+    display: none;
+    width: 70px;
+}
+
 .btn2:hover{
     opacity: 0.7;
 }
 
 .btn1:hover{
+    opacity: 0.7;
+}
+
+.pause:hover{
     opacity: 0.7;
 }
 

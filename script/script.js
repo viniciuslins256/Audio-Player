@@ -1,12 +1,19 @@
 const song = document.querySelector('.song');
 const fill = document.querySelector('.fill');
 let time = document.querySelector(".first");
+let pauseButton = document.querySelector(".pause")
+let playButton = document.querySelector(".btn1")
 
 function togglePlayPause(){
     if(song.paused){
         song.play();
+        playButton.style.display = "none";
+        pauseButton.style.display = "flex";
+        
       } else{
         song.pause();
+        pauseButton.style.display = "none";
+        playButton.style.display = "flex";
       }
 }
 
