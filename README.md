@@ -9,16 +9,18 @@ O foco do projeto é puramente aprendizado nas tecnologias citadas logo abaixo. 
 a versão 2.0, esta tendo como ideia de fato um reprodutor de músicas.
 
 ## Layout
-![](https://github.com/viniciuslins256/Audio-Player/tree/main/assets/Screenshot.png)
 
-# Tecnologias utilizadas
+Criado por mim toda a estrutura no Adobe Illustrator (cujo projeto está no repositório), que foi baseado nesse layout: https://dribbble.com/shots/3678483-Music-Player-and-Menu-dark-theme
+![alt text](https://raw.githubusercontent.com/viniciuslins256/Audio-Player/main/assets/Screenshot.png)
+
+## Tecnologias utilizadas
 
 - HTML
 - CSS
 - Javascript
 - Web design criado no Adobe Illustrator
 
-# Autor
+## Autor
 
 Vinícius Amaral da Costa Lins
 
