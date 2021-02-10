@@ -6,10 +6,10 @@ O site consiste em um simples reprodutor de áudio da música Something Just Lik
 junção das bandas The Chainsmokers e Coldplay.
 
 O foco do projeto é puramente aprendizado nas tecnologias citadas logo abaixo. Em breve será feita
-a versão 2.0, está tendo como ideia de fato um reprodutor de músicas.
+a versão 2.0, esta tendo como ideia de fato um reprodutor de músicas.
 
 ## Layout
-![Web 1](https://github.com/viniciuslins256/Audio-Player/tree/main/assets/Screenshot.png)
+![](https://github.com/viniciuslins256/Audio-Player/tree/main/assets/Screenshot.png)
 
 # Tecnologias utilizadas
 
