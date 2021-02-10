@@ -1,5 +1,25 @@
-Site que reproduz a música Something Just Like This de The Chainsmokers & Coldplay.
-Motivo da criação: Aprendizado.
-Tecnologias: HTML5, CSS3, Javascript.
+# Audio Player - Something Just Like This
 
-Projeto inclui design/layout criado no Adobe Illustrator por mim também.
+https://viniciuslins256.github.io/Audio-Player/
+
+O site consiste em um simples reprodutor de áudio da música Something Just Like This de uma
+junção das bandas The Chainsmokers e Coldplay.
+
+O foco do projeto é puramente aprendizado nas tecnologias citadas logo abaixo. Em breve será feita
+a versão 2.0, está tendo como ideia de fato um reprodutor de músicas.
+
+## Layout
+![Web 1](https://github.com/viniciuslins256/Audio-Player/tree/main/assets/Screenshot.png)
+
+# Tecnologias utilizadas
+
+- HTML
+- CSS
+- Javascript
+- Web design criado no Adobe Illustrator
+
+# Autor
+
+Vinícius Amaral da Costa Lins
+
+https://www.linkedin.com/in/vin%C3%ADcius-amaral-759b76205/
