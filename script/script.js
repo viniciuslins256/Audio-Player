@@ -44,3 +44,12 @@ function calculateTime(number){
     }
     return endTime;
 }
+
+
+function fastForward(){
+    song.currentTime += 10;
+}
+
+function goBack(){
+    song.currentTime -= 10;
+}
